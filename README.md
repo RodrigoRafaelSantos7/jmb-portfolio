@@ -1,91 +1,112 @@
-# Dante - Astro & Tailwind CSS Theme by justgoodui.com
+# João Maria Botelho - Portfolio Website
 
-Dante is a single-author blog and portfolio theme for Astro.js. Featuring a minimal, slick, responsive and content-focused design. For more Astro.js themes please check [justgoodui.com](https://justgoodui.com/).
+A modern, responsive portfolio website for João Maria Botelho, Forbes 30 Under 30 honoree in Sustainability and Social Innovation. Built with Astro.js and Tailwind CSS, featuring a clean, professional design that showcases his work in ESG, sustainable finance, and sustainability law.
 
-![Dante Astro.js Theme](public/dante-preview.jpg)
+## About João Maria Botelho
 
-[![Deploy to Netlify Button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JustGoodUI/dante-astro-theme)
+João Maria Botelho is a jurist and sustainability leader recognized as one of Portugal's youngest voices shaping ESG, sustainable finance, and sustainability. He is a Forbes 30 Under 30 (2024) honoree, Global Shaper under the World Economic Forum, and serves on the Board of Alumni of NOVA School of Law.
 
-If you click this☝️ button, it will create a new repo for you that looks exactly like this one, and sets that repo up immediately for deployment on Netlify.
+## Features
 
-## Theme Features:
-
-- ✅ Dark and light color mode
-- ✅ Hero section with bio
-- ✅ Portfolio collection
-- ✅ Pagination support
-- ✅ Post tags support
-- ✅ Subscription form
-- ✅ View transitions
-- ✅ Tailwind CSS
+- ✅ Modern, responsive design optimized for professional portfolios
+- ✅ Dark and light color modes
+- ✅ Hero section with professional bio
+- ✅ Project showcase and portfolio collection
+- ✅ Blog functionality for thought leadership content
+- ✅ Contact and subscription forms
+- ✅ SEO-optimized with canonical URLs and OpenGraph data
 - ✅ Mobile-first responsive layout
-- ✅ SEO-friendly with canonical URLs and OpenGraph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+- ✅ Fast page transitions and performance optimization
 
-## Template Integrations
+## Tech Stack
 
-- @astrojs/tailwind - https://docs.astro.build/en/guides/integrations-guide/tailwind/
-- @astrojs/sitemap - https://docs.astro.build/en/guides/integrations-guide/sitemap/
-- @astrojs/mdx - https://docs.astro.build/en/guides/markdown-content/
-- @astrojs/rss - https://docs.astro.build/en/guides/rss/
+- **Framework**: [Astro.js](https://astro.build) - Modern static site generator
+- **Styling**: [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
+- **Typography**: Inter and Newsreader fonts via Fontsource
+- **Content**: Markdown and MDX support for blog posts and projects
+- **Build Tools**: Biome for code formatting and linting
 
 ## Project Structure
 
-Inside of Dante Astro theme, you'll see the following folders and files:
-
-```text
-├── public/
+```
+├── public/           # Static assets (images, favicon, etc.)
 ├── src/
-│   ├── components/
-│   ├── content/
-│   ├── data/
-│   ├── icons/
-│   ├── layouts/
-│   ├── pages/
-│   ├── styles/
-│   └── utils/
-├── astro.config.mjs
-├── package.json
-├── README.md
-└── tsconfig.json
+│   ├── components/   # Reusable Astro components
+│   ├── content/      # Content collections (blog, projects, pages)
+│   ├── data/         # Site configuration and data
+│   ├── layouts/      # Page layouts
+│   ├── pages/        # Page routes and API endpoints
+│   ├── styles/       # Global styles and utilities
+│   └── utils/        # Utility functions
+├── astro.config.mjs  # Astro configuration
+└── package.json      # Dependencies and scripts
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Development
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro (`.astro`) components.
+### Prerequisites
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+- Node.js (v18 or higher)
+- Bun (recommended) or npm
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Getting Started
 
-## Astro.js Commands
+1. Clone the repository
+```bash
+git clone <repository-url>
+cd jmb-portfolio
+```
 
-All commands are run from the root of the project, from a terminal:
+2. Install dependencies
+```bash
+bun install
+# or
+npm install
+```
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+3. Start the development server
+```bash
+bun run dev
+# or
+npm run dev
+```
 
-## Want to learn more about Astro.js?
+The site will be available at `http://localhost:4321`
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### Available Commands
 
-## Credits
+| Command | Action |
+|---------|--------|
+| `bun run dev` | Start development server at `localhost:4321` |
+| `bun run build` | Build production site to `./dist/` |
+| `bun run preview` | Preview build locally before deploying |
+| `bun run format` | Format code using Biome |
 
-- Demo content generate with [Chat GPT](https://chat.openai.com/)
-- Images for demo content from [Unsplash](https://unsplash.com/)
+## Content Management
 
-## Astro Themes by Just Good UI
+### Blog Posts
+Add new blog posts as Markdown files in `src/content/blog/`. Each post should include frontmatter with title, description, date, and other metadata.
 
-- [Ovidius](https://github.com/JustGoodUI/ovidius-astro-theme) is a free single author blog theme.
+### Projects
+Showcase projects by adding them to `src/content/projects/`. Include project details, technologies used, and links.
+
+### Site Configuration
+Update site settings, navigation, and personal information in `src/data/site-config.ts`.
+
+## Deployment
+
+The site is configured for deployment on various platforms:
+
+- **Netlify**: Connect your repository for automatic deployments
+- **Vercel**: Zero-configuration deployment for Astro projects
+- **GitHub Pages**: Use GitHub Actions for automated deployment
+
+Build the project with `bun run build` and deploy the `dist/` directory.
 
 ## License
 
-Licensed under the [GPL-3.0](https://github.com/JustGoodUI/dante-astro-theme/blob/main/LICENSE) license.
+Licensed under the [GPL-3.0](./LICENSE) license.
+
+---
+
+*This portfolio showcases the professional work and thought leadership of João Maria Botelho in the fields of ESG, sustainable finance, and sustainability law.*
