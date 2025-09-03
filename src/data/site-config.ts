@@ -39,7 +39,7 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    website: 'https://example.com',
+    website: 'https://jmb-portfolio.vercel.app/',
     title: 'João Maria Botelho',
     subtitle: 'Global Impact | Forbes 30 Under 30 in Sustainability and Social Impact | Young Sustainability Leader',
     description:
