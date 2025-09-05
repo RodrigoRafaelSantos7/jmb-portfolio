@@ -1,6 +1,8 @@
 ---
 import { getCollection } from 'astro:content'
 import Button from '../components/Button.astro'
+import Globe from '../components/Globe.astro'
+import Card from '../components/globe-card/Card.astro'
 import Hero from '../components/Hero.astro'
 import PostPreview from '../components/PostPreview.astro'
 import ProjectPreview from '../components/ProjectPreview.astro'
@@ -17,6 +19,17 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured)
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
+    <Card
+          colorText="text-neutral-900"
+          colSpan="md:col-span-1"
+          href="travel"
+          rowSpan="md:row-span-1"
+          title="Local Impact for Global Impact"
+        >
+          <div class="h-full w-full absolute inset-0 -z-10">
+            <Globe />
+          </div>
+    </Card>
     {/**
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
