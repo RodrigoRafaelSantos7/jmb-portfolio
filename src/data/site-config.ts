@@ -58,6 +58,10 @@ const siteConfig: SiteConfig = {
             href: '/about'
         },
         {
+            text: 'Achievements',
+            href: '/achievements'
+        },
+        {
             text: 'Contact',
             href: '/contact'
         }
