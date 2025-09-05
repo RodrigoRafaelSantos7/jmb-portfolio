@@ -145,7 +145,7 @@ The site includes Vercel Analytics for tracking visitor insights and performance
 
 ## 📄 License
 
-Licensed under the [GPL-3.0](./LICENSE) license.
+Licensed under the [GPL-3.0](./LICENSE) license
 
 ---
 
