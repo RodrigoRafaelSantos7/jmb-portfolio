@@ -1,15 +1,15 @@
 ---
+import siteConfig from '../data/site-config'
 import NavLink from './NavLink.astro'
 import ThemeToggle from './ThemeToggle.astro'
-import siteConfig from '../data/site-config'
 
 const navLinks = siteConfig.headerNavLinks || []
 ---
 
-<nav class="min-h-10 pt-4 pb-12 relative sm:min-h-14 sm:pb-24 md:pt-8">
+<nav class="min-h-10 pt-4 pb-12 sticky top-4 sm:min-h-14 sm:pb-24 md:pt-8   z-50">
     {
         navLinks.length > 0 && (
-            <div class="w-full max-w-3xl mx-auto relative">
+            <div class="w-full max-w-3xl mx-auto">
                 <button
                     class="menu-toggle cursor-pointer w-8 h-8 -ml-1 flex items-center justify-center relative z-30 md:hidden"
                     aria-label="Open Menu"
