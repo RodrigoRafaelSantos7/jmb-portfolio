@@ -1,112 +1,152 @@
 # João Maria Botelho - Portfolio Website
 
-A modern, responsive portfolio website for João Maria Botelho, Forbes 30 Under 30 honoree in Sustainability and Social Innovation. Built with Astro.js and Tailwind CSS, featuring a clean, professional design that showcases his work in ESG, sustainable finance, and sustainability law.
+A professional portfolio website for João Maria Botelho, Forbes 30 Under 30 honoree in Sustainability and Social Innovation, showcasing his work in ESG, sustainable finance, and sustainability law.
 
-## About João Maria Botelho
+## 🌟 About
 
-João Maria Botelho is a jurist and sustainability leader recognized as one of Portugal's youngest voices shaping ESG, sustainable finance, and sustainability. He is a Forbes 30 Under 30 (2024) honoree, Global Shaper under the World Economic Forum, and serves on the Board of Alumni of NOVA School of Law.
+João Maria Botelho (LL.B, NOVA School of Law) is a jurist recognised as one of **Forbes 30 Under 30 (2024)** in Sustainability and Social Innovation. He serves on the Board of Alumni of NOVA School of Law and is the founder of Generation Resonance, an international platform of young leaders protocolled with the United Nations Association of Portugal.
 
-## Features
+Key roles include:
+- Global Shaper under the World Economic Forum
+- Ambassador of the EU Green Deal in Portugal
+- Award winner for Financial Literacy and Entrepreneurship (Santander Foundation)
+- ESG thought leader recognized by Randstad
 
-- ✅ Modern, responsive design optimized for professional portfolios
-- ✅ Dark and light color modes
-- ✅ Hero section with professional bio
-- ✅ Project showcase and portfolio collection
-- ✅ Blog functionality for thought leadership content
-- ✅ Contact and subscription forms
-- ✅ SEO-optimized with canonical URLs and OpenGraph data
-- ✅ Mobile-first responsive layout
-- ✅ Fast page transitions and performance optimization
+## ✨ Features
 
-## Tech Stack
+- **Professional Portfolio**: Showcase of achievements and impact in sustainability
+- **Generation Resonance**: Dedicated section for the international youth leadership platform
+- **Responsive Design**: Optimized for all devices with smooth scrolling
+- **Analytics**: Integrated Vercel Analytics for visitor insights
+- **SEO Optimized**: Meta tags, OpenGraph data, and sitemap generation
+- **Fast Performance**: Static site generation with optimized assets
+- **Contact Forms**: Direct communication channels with subscription options
 
-- **Framework**: [Astro.js](https://astro.build) - Modern static site generator
-- **Styling**: [Tailwind CSS](https://tailwindcss.com) - Utility-first CSS framework
-- **Typography**: Inter and Newsreader fonts via Fontsource
-- **Content**: Markdown and MDX support for blog posts and projects
-- **Build Tools**: Biome for code formatting and linting
+## 🛠 Tech Stack
 
-## Project Structure
+- **Framework**: [Astro.js v5](https://astro.build) - Static site generator
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com) via Vite plugin
+- **Typography**: Inter and Newsreader variable fonts via Fontsource
+- **Content**: MDX support for dynamic content
+- **Analytics**: Vercel Analytics integration
+- **Deployment**: Vercel platform
+- **Code Quality**: Biome for formatting and linting
+
+## 📁 Project Structure
 
 ```
-├── public/           # Static assets (images, favicon, etc.)
+├── public/               # Static assets (images, favicon, etc.)
 ├── src/
-│   ├── components/   # Reusable Astro components
-│   ├── content/      # Content collections (blog, projects, pages)
-│   ├── data/         # Site configuration and data
-│   ├── layouts/      # Page layouts
-│   ├── pages/        # Page routes and API endpoints
-│   ├── styles/       # Global styles and utilities
-│   └── utils/        # Utility functions
-├── astro.config.mjs  # Astro configuration
-└── package.json      # Dependencies and scripts
+│   ├── components/       # Reusable Astro components
+│   ├── content/          # Content collections (blog, projects, pages)
+│   ├── data/
+│   │   └── site-config.ts # Main site configuration
+│   ├── layouts/          # Page layouts
+│   ├── pages/            # Page routes and API endpoints
+│   ├── styles/           # Global styles and Tailwind config
+│   └── utils/            # Utility functions
+├── astro.config.mjs      # Astro configuration
+├── biome.json           # Code formatting configuration
+├── CLAUDE.md            # AI assistant instructions
+└── package.json         # Dependencies and scripts
 ```
 
-## Development
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Node.js (v18 or higher)
-- Bun (recommended) or npm
+- Node.js 18+ or Bun
+- Git
 
-### Getting Started
+### Installation
 
-1. Clone the repository
+1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/yourusername/jmb-portfolio.git
 cd jmb-portfolio
 ```
 
-2. Install dependencies
+2. Install dependencies:
 ```bash
 bun install
-# or
-npm install
+# or npm install
 ```
 
-3. Start the development server
+3. Start development server:
 ```bash
 bun run dev
-# or
-npm run dev
+# or npm run dev
 ```
 
-The site will be available at `http://localhost:4321`
+Visit `http://localhost:4321` to see the site.
 
-### Available Commands
+### 📝 Available Commands
 
-| Command | Action |
-|---------|--------|
-| `bun run dev` | Start development server at `localhost:4321` |
-| `bun run build` | Build production site to `./dist/` |
-| `bun run preview` | Preview build locally before deploying |
-| `bun run format` | Format code using Biome |
+| Command | Description |
+|---------|------------|
+| `bun run dev` | Start development server at localhost:4321 |
+| `bun run build` | Build production site to ./dist/ |
+| `bun run preview` | Preview production build locally |
+| `bun run format` | Format code with Biome |
+| `bun run start` | Alias for dev server |
 
-## Content Management
-
-### Blog Posts
-Add new blog posts as Markdown files in `src/content/blog/`. Each post should include frontmatter with title, description, date, and other metadata.
-
-### Projects
-Showcase projects by adding them to `src/content/projects/`. Include project details, technologies used, and links.
+## ⚙️ Configuration
 
 ### Site Configuration
-Update site settings, navigation, and personal information in `src/data/site-config.ts`.
+Edit `src/data/site-config.ts` to customize:
+- Site metadata (title, description, URL)
+- Navigation links (header and footer)
+- Hero section content
+- Social media links
+- Posts and projects per page
 
-## Deployment
+### Content Management
 
-The site is configured for deployment on various platforms:
+**Blog Posts**: Add MDX files to `src/content/blog/` with frontmatter:
+```mdx
+---
+title: "Your Post Title"
+description: "Post description"
+date: "2024-01-01"
+draft: false
+---
+```
 
-- **Netlify**: Connect your repository for automatic deployments
-- **Vercel**: Zero-configuration deployment for Astro projects
-- **GitHub Pages**: Use GitHub Actions for automated deployment
+**Projects**: Add to `src/content/projects/` with project details and technologies.
 
-Build the project with `bun run build` and deploy the `dist/` directory.
+**Pages**: Custom pages in `src/content/pages/` for About, Achievements, etc.
 
-## License
+## 🌐 Deployment
+
+The site is deployed on **Vercel** at https://jmb-portfolio.vercel.app/
+
+To deploy your own instance:
+
+1. Build the project:
+```bash
+bun run build
+```
+
+2. Deploy the `./dist/` directory to your hosting platform:
+   - **Vercel**: Connect GitHub repo for automatic deployments
+   - **Netlify**: Drag and drop dist folder or connect repo
+   - **Custom**: Upload dist contents to any static host
+
+## 📊 Analytics
+
+The site includes Vercel Analytics for tracking visitor insights and performance metrics.
+
+## 🔧 Development Notes
+
+- **Formatting**: Biome configured with 4-space indentation (2 for markdown/yaml)
+- **TypeScript**: Strict mode enabled
+- **Tailwind CSS v4**: Using new Vite plugin configuration
+- **Code Style**: Single quotes for JS/TS, no trailing commas
+
+## 📄 License
 
 Licensed under the [GPL-3.0](./LICENSE) license.
 
 ---
 
-*This portfolio showcases the professional work and thought leadership of João Maria Botelho in the fields of ESG, sustainable finance, and sustainability law.*
+**Live Site**: [https://www.joaomariabotelho.com/](https://joaomariabotelho.com/)
