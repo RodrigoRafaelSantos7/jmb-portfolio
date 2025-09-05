@@ -31,8 +31,17 @@
     },
     "html": { "formatter": { "selfCloseVoidElements": "always" } },
     "overrides": [
-        { "includes": ["*.md", "*.mdx", "*.yaml"], "formatter": { "indentWidth": 2 } },
-        { "includes": ["*.md", "*.mdx", "*.yaml"], "formatter": { "indentWidth": 2 } }
+        {
+            "includes": ["*.md", "*.mdx", "*.yaml"],
+            "formatter": { "indentWidth": 2 }
+        },
+        {
+            "includes": ["*.md", "*.mdx", "*.yaml"],
+            "formatter": { "indentWidth": 2 }
+        }
     ],
-    "assist": { "enabled": true, "actions": { "source": { "organizeImports": "on" } } }
+    "assist": {
+        "enabled": true,
+        "actions": { "source": { "organizeImports": "on" } }
+    }
 }
