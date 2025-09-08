@@ -8,10 +8,10 @@ seo:
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, great conversations often start with a single message. If you are shaping bold ideas, building projects at the crossroads of innovation and sustainability, or seeking a speaker to bring fresh insight to your stage, João Maria Botelho is open to dialogue.
 
 _Email:_
-Feel free to drop me an email at [example@example.com](mailto:example@example.com), and I'll do my best to respond as soon as possible.
+Feel free to drop me an email at [joaomariastbotelho@gmail.com](mailto:joaomariastbotelho@gmail.com), and João will do his best to respond as soon as possible.
 
 _Social Media:_
-Connect with me on social media as well. Find me on [Twitter](https://twitter.com) or [LinkedIn](https://www.linkedin.com/).
+Connect with João on social media as well. Find him on [Instagram](https://www.instagram.com/joaomariastbotelho) or [LinkedIn](https://www.linkedin.com/in/jo%C3%A3omariabotelho).
 
 _Connect, exchange, collaborate_
 
