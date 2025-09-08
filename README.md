@@ -7,6 +7,7 @@ A professional portfolio website for João Maria Botelho, Forbes 30 Under 30 hon
 João Maria Botelho (LL.B, NOVA School of Law) is a jurist recognised as one of **Forbes 30 Under 30 (2024)** in Sustainability and Social Innovation. He serves on the Board of Alumni of NOVA School of Law and is the founder of Generation Resonance, an international platform of young leaders protocolled with the United Nations Association of Portugal.
 
 Key roles include:
+
 - Global Shaper under the World Economic Forum
 - Ambassador of the EU Green Deal in Portugal
 - Award winner for Financial Literacy and Entrepreneurship (Santander Foundation)
@@ -61,18 +62,21 @@ Key roles include:
 ### Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/yourusername/jmb-portfolio.git
 cd jmb-portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 bun install
 # or npm install
 ```
 
 3. Start development server:
+
 ```bash
 bun run dev
 # or npm run dev
@@ -82,18 +86,20 @@ Visit `http://localhost:4321` to see the site.
 
 ### 📝 Available Commands
 
-| Command | Description |
-|---------|------------|
-| `bun run dev` | Start development server at localhost:4321 |
-| `bun run build` | Build production site to ./dist/ |
-| `bun run preview` | Preview production build locally |
-| `bun run format` | Format code with Biome |
-| `bun run start` | Alias for dev server |
+| Command           | Description                                |
+| ----------------- | ------------------------------------------ |
+| `bun run dev`     | Start development server at localhost:4321 |
+| `bun run build`   | Build production site to ./dist/           |
+| `bun run preview` | Preview production build locally           |
+| `bun run format`  | Format code with Biome                     |
+| `bun run start`   | Alias for dev server                       |
 
 ## ⚙️ Configuration
 
 ### Site Configuration
+
 Edit `src/data/site-config.ts` to customize:
+
 - Site metadata (title, description, URL)
 - Navigation links (header and footer)
 - Hero section content
@@ -103,11 +109,12 @@ Edit `src/data/site-config.ts` to customize:
 ### Content Management
 
 **Blog Posts**: Add MDX files to `src/content/blog/` with frontmatter:
+
 ```mdx
 ---
-title: "Your Post Title"
-description: "Post description"
-date: "2024-01-01"
+title: 'Your Post Title'
+description: 'Post description'
+date: '2024-01-01'
 draft: false
 ---
 ```
@@ -123,6 +130,7 @@ The site is deployed on **Vercel** at https://jmb-portfolio.vercel.app/
 To deploy your own instance:
 
 1. Build the project:
+
 ```bash
 bun run build
 ```
