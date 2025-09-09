@@ -23,6 +23,7 @@ function getIconComponent(linkText: string) {
     {
         navLinks.length > 0 && (
             <div class="mb-4 flex flex-wrap gap-x-6 gap-y-1">
+                <h1 class="text-xl font-serif font-bold underline hidden sm:block">JMB</h1>
                 {navLinks.map((link) => (
                     <a class="font-serif hover:underline hover:underline-offset-2" href={link.href}>
                         {link.text}
