@@ -2,10 +2,9 @@
 import { getCollection } from 'astro:content'
 import Button from '../components/Button.astro'
 import Globe from '../components/Globe.astro'
-import Card from '../components/globe-card/Card.astro'
 import Hero from '../components/Hero.astro'
-import PostPreview from '../components/PostPreview.astro'
 import ProjectPreview from '../components/ProjectPreview.astro'
+import Card from '../components/globe-card/Card.astro'
 import siteConfig from '../data/site-config'
 import BaseLayout from '../layouts/BaseLayout.astro'
 import { sortItemsByDateDesc } from '../utils/data-utils'
@@ -30,19 +29,20 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured)
             <Globe />
           </div>
     </Card>
-    {/**
-        featuredProjects?.length > 0 && (
-            <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Projects</h2>
+   
+        {featuredProjects?.length > 0 && (
+            <div class="mb-16 sm:mb-24 mt-16 sm:mt-24">
+                <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Articles</h2>
                 {featuredProjects.map((project) => (
                     <ProjectPreview project={project} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}
                 <div class="mt-12 sm:mt-16">
-                    <Button href="/projects">View All Projects</Button>
+                    <Button href="/projects">View All Articles</Button>
                 </div>
             </div>
         )
     }
+    {/**
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
