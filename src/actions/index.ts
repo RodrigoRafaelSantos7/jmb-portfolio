@@ -4,6 +4,7 @@ import { z } from "astro:schema";
 import React from "react";
 import { Resend } from "resend";
 import ContactEmail from "../../emails/sample-email";
+
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 
 export const server = {
@@ -15,21 +16,20 @@ export const server = {
 			message: z.string(),
 		}),
 		handler: async ({ name, email, message }) => {
-			const html = await pretty(
-				await render(
-					React.createElement(ContactEmail, {
-						email: email,
-						name: name,
-						message: message,
-					}),
-				),
-			);
+			const emailContent = createElement(ContactEmail, {
+				name: name,
+				email: email,
+				message: message,
+			});
+			const html = await render(emailContent);
+			const text = await render(emailContent, { plainText: true });
 
 			const { data, error } = await resend.emails.send({
 				from: "João Maria Botelho <notification@notification.joaomariabotelho.com>",
-				to: ["rodrigorafaelsantos7@icloud.com"],
+				to: ["joaomariastbotelho@gmail.com","rodrigorafaelsantos7@icloud.com"],
 				subject: "New message from João Maria Botelho website",
 				html,
+				text,
 			});
 
 			if (error) {

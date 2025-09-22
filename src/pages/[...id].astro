@@ -1,19 +1,21 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
-import BaseLayout from "../layouts/BaseLayout.astro";
-import Subscribe from "../components/Subscribe.astro";
+export const prerender = true;
+
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import Subscribe from '../components/Subscribe.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 
 export async function getStaticPaths() {
-	const pages = await getCollection("pages");
-	return pages.map((page) => {
-		return {
-			params: { id: page.id },
-			props: { page },
-		};
-	});
+    const pages = await getCollection('pages');
+    return pages.map((page) => {
+        return {
+            params: { id: page.id },
+            props: { page }
+        };
+    });
 }
 
-type Props = { page: CollectionEntry<"pages"> };
+type Props = { page: CollectionEntry<'pages'> };
 
 const { page } = Astro.props;
 const { title, seo } = page.data;

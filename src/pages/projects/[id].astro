@@ -1,28 +1,28 @@
 ---
-import { type CollectionEntry, getCollection, render } from "astro:content";
-import ProjectPreview from "../../components/ProjectPreview.astro";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import { sortItemsByDateDesc } from "../../utils/data-utils";
+export const prerender = true;
+
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import ProjectPreview from '../../components/ProjectPreview.astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths() {
-	const projects = (await getCollection("projects")).sort(sortItemsByDateDesc);
-	const projectCount = projects.length;
-	return projects.map(
-		(project: CollectionEntry<"projects">, index: number) => ({
-			params: { id: project.id },
-			props: {
-				project,
-				prevProject: index + 1 !== projectCount ? projects[index + 1] : null,
-				nextProject: index !== 0 ? projects[index - 1] : null,
-			},
-		}),
-	);
+    const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+    const projectCount = projects.length;
+    return projects.map((project: CollectionEntry<'projects'>, index: number) => ({
+        params: { id: project.id },
+        props: {
+            project,
+            prevProject: index + 1 !== projectCount ? projects[index + 1] : null,
+            nextProject: index !== 0 ? projects[index - 1] : null
+        }
+    }));
 }
 
 type Props = {
-	project: CollectionEntry<"projects">;
-	prevProject: CollectionEntry<"projects">;
-	nextProject: CollectionEntry<"projects">;
+    project: CollectionEntry<'projects'>;
+    prevProject: CollectionEntry<'projects'>;
+    nextProject: CollectionEntry<'projects'>;
 };
 
 const { project, prevProject, nextProject } = Astro.props;

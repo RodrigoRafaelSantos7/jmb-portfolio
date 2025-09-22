@@ -1,18 +1,20 @@
 ---
-import type { GetStaticPathsOptions, Page } from "astro";
-import { getCollection, type CollectionEntry } from "astro:content";
-import Pagination from "../../components/Pagination.astro";
-import ProjectPreview from "../../components/ProjectPreview.astro";
-import siteConfig from "../../data/site-config";
-import BaseLayout from "../../layouts/BaseLayout.astro";
-import { sortItemsByDateDesc } from "../../utils/data-utils";
+export const prerender = true;
+
+import type { GetStaticPathsOptions, Page } from 'astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+import Pagination from '../../components/Pagination.astro';
+import ProjectPreview from '../../components/ProjectPreview.astro';
+import siteConfig from '../../data/site-config';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../../utils/data-utils';
 
 export async function getStaticPaths({ paginate }: GetStaticPathsOptions) {
-	const projects = (await getCollection("projects")).sort(sortItemsByDateDesc);
-	return paginate(projects, { pageSize: siteConfig.projectsPerPage || 6 });
+    const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
+    return paginate(projects, { pageSize: siteConfig.projectsPerPage || 6 });
 }
 
-type Props = { page: Page<CollectionEntry<"projects">> };
+type Props = { page: Page<CollectionEntry<'projects'>> };
 
 const { page } = Astro.props;
 const portfolio = page.data;

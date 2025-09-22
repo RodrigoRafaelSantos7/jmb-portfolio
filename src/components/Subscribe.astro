@@ -3,14 +3,22 @@ import { actions } from 'astro:actions';
 import siteConfig from '../data/site-config';
 import Button from './Button.astro';
 
-const result = Astro.getActionResult(actions.send);
-if (result?.data) {
-    return Astro.redirect('/');
-}
-
 const subscribe = siteConfig.subscribe;
 
 const { class: className } = Astro.props;
+
+const result = Astro.getActionResult(actions.send);
+if (result?.data) {
+    console.log('Message sent successfully');
+    alert('Message sent successfully');
+    const form = document.getElementById('subscribe-form') as HTMLFormElement;
+    form?.reset();
+}
+
+if (result?.error) {
+    console.log('Message sent failed');
+    alert('Message sent failed');
+}
 ---
 
 <section class:list={['px-8 py-12 flex flex-col items-center border border-dashed border-main text-center sm:px-12 sm:py-16', className]}>
@@ -22,14 +30,7 @@ const { class: className } = Astro.props;
         )
     }
     {subscribe?.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
-    <form
-        action={actions.send}
-        method="post"
-        id="subscribe-form"
-        name="subscribe-form"
-        class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-col"
-        target="_blank"
-    >
+    <form action={actions.send} id="subscribe-form" name="subscribe-form" class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-col" target="_blank">
         <label for="email" class="sr-only"> Email Address </label>
         <input
             type="email"

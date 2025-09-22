@@ -1,36 +1,33 @@
 ---
-import { getCollection } from "astro:content";
-import Button from "../components/Button.astro";
-import Globe from "../components/Globe.astro";
-import Hero from "../components/Hero.astro";
-import ProjectPreview from "../components/ProjectPreview.astro";
-import Card from "../components/globe-card/Card.astro";
-import siteConfig from "../data/site-config";
-import BaseLayout from "../layouts/BaseLayout.astro";
-import { sortItemsByDateDesc } from "../utils/data-utils";
+export const prerender = true;
 
-const posts = (await getCollection("blog")).sort(sortItemsByDateDesc);
+import { getCollection } from 'astro:content';
+import Button from '../components/Button.astro';
+import Globe from '../components/Globe.astro';
+import Hero from '../components/Hero.astro';
+import ProjectPreview from '../components/ProjectPreview.astro';
+import Card from '../components/globe-card/Card.astro';
+import siteConfig from '../data/site-config';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { sortItemsByDateDesc } from '../utils/data-utils';
+
+const posts = (await getCollection('blog')).sort(sortItemsByDateDesc);
 const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
-const projects = (await getCollection("projects")).sort(sortItemsByDateDesc);
+const projects = (await getCollection('projects')).sort(sortItemsByDateDesc);
 const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
-    <Card
-          colorText="text-neutral-900"
-          colSpan="md:col-span-1"
-          href="travel"
-          rowSpan="md:row-span-1"
-          title="Local Impact for Global Impact"
-        >
-          <div class="h-full w-full absolute inset-0 -z-10">
+    <Card colorText="text-neutral-900" colSpan="md:col-span-1" href="travel" rowSpan="md:row-span-1" title="Local Impact for Global Impact">
+        <div class="h-full w-full absolute inset-0 -z-10">
             <Globe />
-          </div>
+        </div>
     </Card>
-   
-        {featuredProjects?.length > 0 && (
+
+    {
+        featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24 mt-16 sm:mt-24">
                 <h2 class="mb-12 text-xl font-serif italic sm:mb-16 sm:text-2xl">Articles</h2>
                 {featuredProjects.map((project) => (
@@ -42,7 +39,8 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
             </div>
         )
     }
-    {/**
+    {
+        /**
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
@@ -55,5 +53,6 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
                 </div>
             </div>
         )
-    */}
+    */
+    }
 </BaseLayout>
