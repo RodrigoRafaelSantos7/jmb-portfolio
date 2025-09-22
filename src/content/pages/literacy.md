@@ -1,7 +1,7 @@
 ---
-title: Empowerment through Literacy
+title: Sustainable Literacy
 seo:
-  title: Sustainably literacy
+  title: Empowerment through Literacy
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
   image:
     src: '/jmb-preview.jpg'
