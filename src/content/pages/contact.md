@@ -3,7 +3,12 @@ title: Get in touch
 seo:
   title: Contact
   description: Get in touch through email or social media! Let me know how I can help.
+  image:
+    src: '/jmb-contact.jpg'
+    alt: João Maria Botelho Forbes 30 under 30
 ---
+
+![João Maria Botelho Forbes 30 under 30](/jmb-contact.jpeg)
 
 Thank you for reaching out! Whether you have a question, a suggestion, or just want to share your thoughts, great conversations often start with a single message. If you are shaping bold ideas, building projects at the crossroads of innovation and sustainability, or seeking a speaker to bring fresh insight to your stage, João Maria Botelho is open to dialogue.
 

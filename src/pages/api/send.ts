@@ -31,7 +31,7 @@ export const POST: APIRoute = async ({ request }) => {
 
 		const { data, error } = await resend.emails.send({
 			from: "João Maria Botelho <notification@notification.joaomariabotelho.com>",
-			to: ["joaomariastbotelho@gmail.com", "rodrigorafaelsantos7@icloud.com"],
+			to: ["joaomariastbotelho@gmail.com"],
 			subject: "New message from João Maria Botelho website",
 			html: html,
 			text: text,
