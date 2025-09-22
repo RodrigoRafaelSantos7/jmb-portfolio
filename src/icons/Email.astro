@@ -1,9 +1,9 @@
 ---
-import type { HTMLAttributes } from 'astro/types'
+import type { HTMLAttributes } from "astro/types";
 
-type Props = HTMLAttributes<'svg'>
+type Props = HTMLAttributes<"svg">;
 
-const { class: className, ...props } = Astro.props
+const { class: className, ...props } = Astro.props;
 ---
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 49.4 512 399.42" class={className} {...props}>

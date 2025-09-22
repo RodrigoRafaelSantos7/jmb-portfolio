@@ -28,11 +28,59 @@ Among its key initiatives are:
 
 - Portuguese Climate Summit – Conceived as a national youth-led forum, the Summit convenes policymakers, scholars, and civil society to address climate challenges collectively. Held in Oeiras with the support of the United Nations Association of Portugal and the Fundação Oriente, the event marked a milestone in empowering Portuguese youth to step into the policy arena. Its panels have tackled subjects ranging from ocean governance and sustainable finance to energy transition, while also creating visibility for emerging voices.
 
-
 - Youth Roundtables and Dialogues – Generation Resonance curates closed-door and open debates where young professionals meet senior decision-makers to exchange ideas and build networks. These dialogues have reached from Lisbon to Brussels, with the ambition of extending further across Europe and Lusophone Africa. Their central aim is to strengthen the role of young voices in shaping public policy and corporate strategy.
 
 - Youth for the Future: João Maria Botelho’s mission is defined by intergenerational dialogue and the conviction that sustainable transformation cannot be achieved by one generation alone. This belief led to the creation of “Ambassadors of the Future”, an initiative that honours his vision of bringing together diverse voices across age, discipline, and sector. It is a council of experts who not only believe in the mission of empowering youth but actively contribute to it, offering knowledge, mentorship, and credibility.
-  - The Ambassadors of the Future include distinguished figures such as Mónica Ferro (Director, UNFPA London), Armando Marques Guedes (Professor, NOVA School of Law / former Director of the Diplomatic Institute of Portugal), Alice Khouri (Head of Legal, Helexia), Margarida Couto (Founding Partner of VdA / President of GRACE), Filipa Saldanha (Head of Sustainability, Crédito Agrícola), Helena Vieira (Chair of Environmental Economics, University of Aveiro), Eduardo Ferreira (Head of Innovation), Isabel Neves (President of UNA Portugal), Margarida Sá Costa (Board Member), Maria Teresa Goulão (Director), Cristina Queiroz (Full Professor, NOVA School of Law), Catarina Milagre (Lawyer), Isabel Carvalhais (ex-MEP), Maria Manuel Marques (ex-MEP), Vasco Becker-Weinberg (ex-MEP), Assunção Cristas (Partner, VdA / former Minister of the Sea and Agriculture), Cláudia Mendes Silva (Director of D&I), Marta Lima (Chief Sustainability Officer, VdA), Mário Parra da Silva (UNA / UN Global Compact Portugal), Pedro Oliveira (Dean, NOVA SBE), Rodrigo Tavares (Professor, NOVA SBE), Pedro Krupenski (Fundação Oriente), Jaime Quesado (Economist), Catarina Barreiros (sustainability entrepreneur and influencer), Ângela Lucas (Director, Land Fund), Filipa Pantaleão (Secretary General, BCSD Portugal), Sílvia [CEO, Vanilla Project], Ana Gouveia (ex-Secretary of State for Energy), Rita Orvalho (Board Member, C2), Ivo Cruz (ex-Secretary of State for Internationalisation), Matsi Modise (Chairperson, Technology Innovation Agency, WCF), Vanessa Arelle (strategist and corporate diplomat), and Paula Perfeito (President, PwC Portugal). This intergenerational council is not symbolic: it embodies João Maria’s conviction that youth must be empowered through knowledge transfer, mentoring, and recognition, creating bridges between today’s leaders and tomorrow’s decision-makers.
+  - The Ambassadors of the Future include distinguished figures such as:
+
+    **International Organizations & Diplomacy:**
+    - Mónica Ferro (Director, UNFPA London)
+    - Armando Marques Guedes (Professor, NOVA School of Law / former Director of the Diplomatic Institute of Portugal)
+    - Isabel Neves (President of UNA Portugal)
+    - Mário Parra da Silva (UNA / UN Global Compact Portugal)
+    - Matsi Modise (Chairperson, Technology Innovation Agency, WCF)
+    - Vanessa Arelle (strategist and corporate diplomat)
+
+    **Legal & Corporate:**
+    - Alice Khouri (Head of Legal, Helexia)
+    - Margarida Couto (Founding Partner of VdA / President of GRACE)
+    - Cristina Queiroz (Full Professor, NOVA School of Law)
+    - Catarina Milagre (Lawyer)
+    - Assunção Cristas (Partner, VdA / former Minister of the Sea and Agriculture)
+    - Cláudia Mendes Silva (Director of D&I)
+    - Marta Lima (Chief Sustainability Officer, VdA)
+    - Paula Perfeito (President, PwC Portugal)
+
+    **Sustainability & Environment:**
+    - Filipa Saldanha (Head of Sustainability, Crédito Agrícola)
+    - Helena Vieira (Chair of Environmental Economics, University of Aveiro)
+    - Catarina Barreiros (sustainability entrepreneur and influencer)
+    - Ângela Lucas (Director, Land Fund)
+    - Filipa Pantaleão (Secretary General, BCSD Portugal)
+
+    **Academia & Research:**
+    - Pedro Oliveira (Dean, NOVA SBE)
+    - Rodrigo Tavares (Professor, NOVA SBE)
+    - Jaime Quesado (Economist)
+
+    **Government & Public Service:**
+    - Isabel Carvalhais (ex-MEP)
+    - Maria Manuel Marques (ex-MEP)
+    - Vasco Becker-Weinberg (ex-MEP)
+    - Ana Gouveia (ex-Secretary of State for Energy)
+    - Ivo Cruz (ex-Secretary of State for Internationalisation)
+
+    **Innovation & Business:**
+    - Eduardo Ferreira (Head of Innovation)
+    - Pedro Krupenski (Fundação Oriente)
+    - Sílvia (CEO, Vanilla Project)
+    - Rita Orvalho (Board Member, C2)
+
+    **Other Leadership:**
+    - Margarida Sá Costa (Board Member)
+    - Maria Teresa Goulão (Director)
+
+    This intergenerational council is not symbolic: it embodies João Maria's conviction that youth must be empowered through knowledge transfer, mentoring, and recognition, creating bridges between today's leaders and tomorrow's decision-makers.
 
 ![Generation Resonance Activities](/gr-activities.jpg)
 

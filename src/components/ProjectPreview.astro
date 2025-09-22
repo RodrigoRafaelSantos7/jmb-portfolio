@@ -1,12 +1,16 @@
 ---
-import { type CollectionEntry } from 'astro:content';
-import ArrowRight from '../icons/ArrowRight.astro';
+import { type CollectionEntry } from "astro:content";
+import ArrowRight from "../icons/ArrowRight.astro";
 
-type Props = { project: CollectionEntry<'projects'>; class?: string; headingLevel?: 'h2' | 'h3' }
+type Props = {
+	project: CollectionEntry<"projects">;
+	class?: string;
+	headingLevel?: "h2" | "h3";
+};
 
-const { project, class: className, headingLevel = 'h2' } = Astro.props
-const { title, description } = project.data
-const TitleTag = headingLevel
+const { project, class: className, headingLevel = "h2" } = Astro.props;
+const { title, description } = project.data;
+const TitleTag = headingLevel;
 ---
 
 <a class:list={['flex justify-between items-start gap-8 group', className]} href={`${project.data.link}`} target="_blank">

@@ -1,11 +1,13 @@
 ---
-import { ClientRouter } from 'astro:transitions'
-import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro'
-import Header from '../components/Header.astro'
+import { ClientRouter } from "astro:transitions";
+import BaseHead, {
+	type Props as HeadProps,
+} from "../components/BaseHead.astro";
+import Header from "../components/Header.astro";
 
-export type Props = HeadProps & { showHeader?: boolean }
+export type Props = HeadProps & { showHeader?: boolean };
 
-const { showHeader = true, ...head } = Astro.props
+const { showHeader = true, ...head } = Astro.props;
 ---
 
 <!doctype html>

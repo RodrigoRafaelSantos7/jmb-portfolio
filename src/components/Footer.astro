@@ -1,22 +1,21 @@
 ---
-import siteConfig from '../data/site-config'
-import Email from '../icons/Email.astro'
-import Instagram from '../icons/Instagram.astro'
-import LinkedIn from '../icons/LinkedIn.astro'
+import siteConfig from "../data/site-config";
+import Email from "../icons/Email.astro";
+import Instagram from "../icons/Instagram.astro";
+import LinkedIn from "../icons/LinkedIn.astro";
 
-const socialLinks = siteConfig.socialLinks || []
-const navLinks = siteConfig.footerNavLinks || []
+const socialLinks = siteConfig.socialLinks || [];
+const navLinks = siteConfig.footerNavLinks || [];
 
 // Map social link text to icon components
 function getIconComponent(linkText: string) {
-    const iconMap = {
-        'Email': Email,
-        'Instagram': Instagram,
-        'LinkedIn': LinkedIn
-    }
-    return iconMap[linkText as keyof typeof iconMap]
+	const iconMap = {
+		Email: Email,
+		Instagram: Instagram,
+		LinkedIn: LinkedIn,
+	};
+	return iconMap[linkText as keyof typeof iconMap];
 }
-
 ---
 
 <footer class="w-full max-w-3xl mx-auto pt-12 pb-10 sm:pt-24 sm:pb-14">

@@ -1,19 +1,19 @@
 ---
-import { getCollection } from 'astro:content'
-import Button from '../components/Button.astro'
-import Globe from '../components/Globe.astro'
-import Hero from '../components/Hero.astro'
-import ProjectPreview from '../components/ProjectPreview.astro'
-import Card from '../components/globe-card/Card.astro'
-import siteConfig from '../data/site-config'
-import BaseLayout from '../layouts/BaseLayout.astro'
-import { sortItemsByDateDesc } from '../utils/data-utils'
+import { getCollection } from "astro:content";
+import Button from "../components/Button.astro";
+import Globe from "../components/Globe.astro";
+import Hero from "../components/Hero.astro";
+import ProjectPreview from "../components/ProjectPreview.astro";
+import Card from "../components/globe-card/Card.astro";
+import siteConfig from "../data/site-config";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { sortItemsByDateDesc } from "../utils/data-utils";
 
-const posts = (await getCollection('blog')).sort(sortItemsByDateDesc)
-const featuredPosts = posts.filter(({ data }) => data.isFeatured)
+const posts = (await getCollection("blog")).sort(sortItemsByDateDesc);
+const featuredPosts = posts.filter(({ data }) => data.isFeatured);
 
-const projects = (await getCollection('projects')).sort(sortItemsByDateDesc)
-const featuredProjects = projects.filter(({ data }) => data.isFeatured)
+const projects = (await getCollection("projects")).sort(sortItemsByDateDesc);
+const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 ---
 
 <BaseLayout description={siteConfig.description} image={siteConfig.image}>
