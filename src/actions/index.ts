@@ -1,7 +1,7 @@
 import { pretty, render } from "@react-email/render";
 import { ActionError, defineAction } from "astro:actions";
 import { z } from "astro:schema";
-import React from "react";
+import React, { createElement } from "react";
 import { Resend } from "resend";
 import ContactEmail from "../../emails/sample-email";
 

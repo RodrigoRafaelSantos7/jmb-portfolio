@@ -1,24 +1,10 @@
 ---
-import { actions } from 'astro:actions';
 import siteConfig from '../data/site-config';
 import Button from './Button.astro';
 
 const subscribe = siteConfig.subscribe;
 
 const { class: className } = Astro.props;
-
-const result = Astro.getActionResult(actions.send);
-if (result?.data) {
-    console.log('Message sent successfully');
-    alert('Message sent successfully');
-    const form = document.getElementById('subscribe-form') as HTMLFormElement;
-    form?.reset();
-}
-
-if (result?.error) {
-    console.log('Message sent failed');
-    alert('Message sent failed');
-}
 ---
 
 <section class:list={['px-8 py-12 flex flex-col items-center border border-dashed border-main text-center sm:px-12 sm:py-16', className]}>
@@ -30,7 +16,7 @@ if (result?.error) {
         )
     }
     {subscribe?.text && <p class="w-full max-w-xl mb-8 text-sm leading-normal">{subscribe.text}</p>}
-    <form action={actions.send} id="subscribe-form" name="subscribe-form" class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-col" target="_blank">
+    <form id="subscribe-form" name="subscribe-form" class="w-full max-w-xl flex flex-col gap-3.5 sm:flex-col">
         <label for="email" class="sr-only"> Email Address </label>
         <input
             type="email"
@@ -61,3 +47,47 @@ if (result?.error) {
         <Button type="submit" name="subscribe" class="w-full h-9 sm:w-auto"> Send Message </Button>
     </form>
 </section>
+
+<script>
+    // Handle form submission
+    document.addEventListener('DOMContentLoaded', () => {
+        const form = document.getElementById('subscribe-form') as HTMLFormElement;
+        if (form) {
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+
+                const formData = new FormData(form);
+                const submitButton = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+
+                if (submitButton) {
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Sending...';
+                }
+
+                try {
+                    const response = await fetch('/api/send', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        alert('Message sent successfully!');
+                        form.reset();
+                    } else {
+                        alert('Failed to send message. Please try again.');
+                    }
+                } catch (error) {
+                    console.error('Error:', error);
+                    alert('Failed to send message. Please try again.');
+                } finally {
+                    if (submitButton) {
+                        submitButton.disabled = false;
+                        submitButton.textContent = 'Send Message';
+                    }
+                }
+            });
+        }
+    });
+</script>
