@@ -12,7 +12,7 @@ seo:
 
 ## About João Maria Botelho
 
-João Maria Botelho is part of a generation that refuses to treat sustainability as an accessory. His alma mater the most innovative school in Portugal at NOVA School of Law,where he now serves on the **Board of Alumni** - with further specialisation programmes at international universities (Wharton Programme on ESG) and under Jonh Fullerton programme on Regenrative Economics (full tuition covered by is backgroun on sustaibability).
+João Maria Botelho is part of a generation that refuses to treat sustainability as an accessory. His alma mater the most innovative school in Portugal at NOVA School of Law,where he now serves on the **Board of Alumni** - with further specialisation programmes at international universities (Wharton Programme on ESG) and under Jonh Fullerton programme on Regenrative Economics (full tuition covered by is background on sustaibability).
 
 His young anf early career has consistently been shaped by the conviction that law, finance, and sustainability must be addressed as a single framework.
 
@@ -48,6 +48,5 @@ As part of the Ambição Portugal project, developed by KPMG and Expresso, he jo
 ![Expresso Article](/expresso.png)
 
 Building on that conviction, he helped as a co-founder for the **Youth Club Portugal**, a civic platform that brings together young entrepreneurs and active citizens to debate with policymakers and leaders across sectors. The Youth Club’s mission is to equip young people with the skills and confidence required for full civic participation, encouraging them to engage in decision-making while cultivating critical thinking and responsibility. It is designed as both a space of debate and a training ground for leadership, recognising and rewarding young voices committed to a humanist and entrepreneurial spirit.
-
 
 _Local Impact for Global Impact_
