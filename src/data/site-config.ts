@@ -88,7 +88,7 @@ const siteConfig: SiteConfig = {
 	socialLinks: [
 		{
 			text: "Email",
-			href: "#",
+			href: "mailto:joaomariastbotelho@gmail.com",
 		},
 		{
 			text: "Instagram",
