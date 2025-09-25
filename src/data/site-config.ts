@@ -67,7 +67,7 @@ const siteConfig: SiteConfig = {
 			href: "/generation-resonance",
 		},
 		{
-			text: "Sustainably literacy",
+			text: "Sustainable Literacy",
 			href: "/literacy",
 		},
 		{
