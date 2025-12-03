@@ -34,6 +34,52 @@ function formatCanonicalURL(url: string | URL) {
     // otherwise, canonical URL always has a trailing slash
     return path.replace(/\/?$/, hasQueryParams ? '' : '/');
 }
+
+/**
+ * Build JSON-LD structured data for Person schema
+ */
+function buildPersonSchema() {
+    const profileImage = siteConfig.image?.src
+        ? new URL(siteConfig.image.src, Astro.site).toString()
+        : undefined;
+    
+    // Extract social media URLs (excluding email)
+    const sameAs = siteConfig.socialLinks
+        ?.filter(link => !link.href.startsWith('mailto:'))
+        .map(link => link.href) || [];
+    
+    const personSchema = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": siteConfig.title,
+        "description": siteConfig.description,
+        "url": Astro.site?.toString() || siteConfig.website,
+        "jobTitle": "Lawyer",
+        "worksFor": [
+            {
+                "@type": "Organization",
+                "name": "Generation Resonance",
+                "founder": siteConfig.title
+            }
+        ],
+        "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "NOVA School of Law"
+        },
+        "award": "Forbes 30 Under 30 (2024) - Sustainability & Social Innovation",
+        "knowsAbout": [
+            "ESG",
+            "Sustainable Finance",
+            "Climate Change Regulation",
+            "Environmental Law",
+            "Regenerative Economics"
+        ],
+        ...(profileImage && { "image": profileImage }),
+        ...(sameAs.length > 0 && { "sameAs": sameAs })
+    };
+    
+    return JSON.stringify(personSchema);
+}
 ---
 
 <!-- High Priority Global Metadata -->
@@ -70,3 +116,6 @@ function formatCanonicalURL(url: string | URL) {
 <meta property="twitter:description" content={description} />
 {resolvedImage?.src && <meta property="twitter:image" content={resolvedImage.src} />}
 {resolvedImage?.alt && <meta name="twitter:image:alt" content={resolvedImage?.alt} />}
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={buildPersonSchema()} />
