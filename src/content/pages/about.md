@@ -1,5 +1,5 @@
 ---
-title: João’s mission and Drive
+title: João's Mission and Drive
 seo:
   title: About Me
   description: Learn more about the person behind the website and embark on a journey of inspiration and shared experiences.
@@ -12,41 +12,46 @@ seo:
 
 ## About João Maria Botelho
 
-João Maria Botelho is part of a generation that refuses to treat sustainability as an accessory. His alma mater the most innovative school in Portugal at NOVA School of Law,where he now serves on the **Board of Alumni** - with further specialisation programmes at international universities (Wharton Programme on ESG) and under Jonh Fullerton programme on Regenrative Economics (full tuition covered by is background on sustaibability).
+João Maria Botelho belongs to a cohort of leaders who refuse to treat sustainability as a peripheral accessory to business. For him, the climate crisis is not merely an environmental challenge, but a profound social and financial frontier. His journey is defined by the unwavering conviction that Law, Finance, and Sustainability are not separate disciplines, but a single, integrated framework required to navigate the complexities of the 21st century.
 
-His young anf early career has consistently been shaped by the conviction that law, finance, and sustainability must be addressed as a single framework.
+Educated at the vanguard of legal innovation — **NOVA School of Law** (Portugal), where he now contributes to the Board of Alumni — João's intellectual foundation was further refined through global lenses. His expertise was sharpened at the **Wharton School** (ESG Specialization Course) and under the mentorship of **John Fullerton** in Regenerative Economics, a program he attended with full merit-based tuition, awarded in recognition of his significant contributions to the field. Currently, he is expanding his academic reach at the **NOVA School of Science and Technology (FCT)**, pursuing a postgraduate degree in Entrepreneurship and Technology to bridge the gap between rigorous legal frameworks and the cutting-edge innovations shaping the future.
+
+The year 2024 marked his definitive ascent as a global thought leader. Recognized as a **Forbes 30 Under 30** honoree and identified by **Randstad** as one of the leading emerging voices in ESG, João's authority was further cemented when he was featured in **Forbes USA** as an expert on the evolution of EU sustainability reporting. A prolific columnist for major media outlets in both Portugal and Brazil, he has become a listened-to voice across the Atlantic, translating the legal and economic challenges of the sustainable transition for a global audience.
+
+In the legal arena, João's practice focuses on high-stakes cross-border transactions where sustainability, regulatory frameworks, and financial structuring meet. His strategic insight is sought not only by corporations but also by the entrepreneurial ecosystem, having served as an **Advisor for Santander X**, the national startup program of the Santander Foundation. This role, coupled with his position as a **European Climate Pact Ambassador** and **TEDx speaker**, allows him to drive dialogue at the highest institutional levels while mentoring the next generation of innovators.
+
+As an author and researcher, João Maria Botelho has reached a milestone that consolidated his standing in the Lusophone world. He is the co-coordinator and author of the **First ESG Handbook in Portugal** (Almedina), a seminal 500-page reference work — the first of its kind in Portugal — uniting over twenty experts under his vision. Far from stagnant, he is currently on a mission to deliver his second book, further exploring the relationship between regulation, capital allocation, and real-world outcomes.
+
+Today, as a **Global Shaper** for the World Economic Forum and co-founder of the **Youth Club Portugal**, João continues to build the civic and intellectual structures he once envisioned. He is not just training the next generation of leaders; he is equipping them with the legal, financial, and technological tools required for full civic participation. His mission remains clear: to ensure that the sustainable transition is not just a policy goal, but a lived reality, driven by a new generation of entrepreneurs who lead with purpose, technical mastery, and an uncompromising spirit of innovation.
+
+---
 
 ## 2019
 
-His journey began in 2019 with a historical research project recognised by the Council of Europe, where civic engagement and democratic memory shaped his first approach to leadership. From there, his trajectory expanded into law, focusing on constitutional and environmental frameworks, while simultaneously cultivating international experience at the United Nations, the World Economic Forum, and global climate conferences.
+The roots of his leadership trace back to 2019, when a historical research project recognized by the **Council of Europe** first sparked his commitment to civic engagement and democratic memory. This early encounter with institutional leadership set the stage for a trajectory that would move from the fundamental rights of the Portuguese Parliament to the high-stakes corridors of the United Nations, the World Economic Forum, and global climate summits.
 
-## 2021-2023
+## 2021 – 2023
 
-Between 2021 and 2023, João Maria was a researcher at leading ESG and ocean research centres, contributed to projects on sustainable finance and climate litigation, and undertook professional experiences in New York and the United States energy sector (GASP & AAE). He was selected for the Regenerative Economics Fellowship, produced pioneering podcasts on ESG, and began building his reputation as one of Portugal’s youngest legal and sustainability voices.
+Between 2021 and 2023, João's career took a decisive turn toward the global stage. From conducting ocean and ESG research to navigating the energy sectors of New York with **GASP** and **AAE**, he transitioned from an observer to a practitioner. During this period, he bridged the gap between startup agility and institutional rigor, serving as an **Advisor for Syntegral** (NY based Startup) in ESG and Impact Investing while simultaneously honing his legal craft at both boutique and top-tier international law firms.
 
-During this period, he also joined Syntegral, an ESG and impact startup, first as a Fellow and later as Advisor in ESG & Impact Investing, gaining first-hand insight into entrepreneurial innovation.
+His research in constitutional law, developed under the auspices of the **Portuguese Parliament**, earned him an **Honorable Mention from the President of the Assembly of the Republic** — a testament to a young jurist already capable of influencing national discourse. During this period, he was also involved with leading alignment-focused centers dedicated to human rights, environmental enhancement, the blue economy, and ESG at NOVA University.
 
-João Maria also undertook legal internships in both a **boutique law firm** and a **top-tier international law firm**, working on financial markets, ESG, and energy-related matters. Alongside this, his research in constitutional law and fundamental rights, carried out under the auspices of the **Portuguese Parliament**, received an **Honourable Mention from the President of the Assembly of the Republic**, further reinforcing his early recognition as a legal enthusiast.
+## 2023 – 2024
 
-In 2023, he founded [Generation Resonance](/generation-resonance) during COP28 in Dubai, an international youth network now active in Europe, Africa, Asia, and the US. He also became a Global Shaper at the World Economic Forum, curating dialogues on leadership and sustainability.
-
-## 2024
-
-In 2024, João Maria was recognised by **Forbes 30 Under 30** for Sustainability & Social Innovation, received the **National Award for Financial Literacy and Entrepreneurship** from the Santander Foundation, and began his legal career at a top tier law firm, focusing on ESG, regulatory law, and climate change.
+The year 2023 marked a pivotal expansion of his global footprint. At **COP28** in Dubai, João founded [Generation Resonance](/generation-resonance), an international network that today empowers youth across Europe, Africa, Asia, and the United States to lead with substance. His appointment as a **Global Shaper** by the World Economic Forum solidified his role as a curator of high-level dialogues on leadership, a role he leveraged when he was named a **Forbes 30 Under 30** honoree and received the **National Award for Financial Literacy and Entrepreneurship** from the Santander Foundation.
 
 ## 2025
 
-He also assumed the role of **EU Green Deal Ambassador for Portugal**, representing youth engagement in the European climate agenda.
-In 2025, he delivered a **TEDx Talk** at the inaugural edition of Climate Voices, speaking on the theme of Sustainability with Purpose.
+By 2025, João's authority reached a definitive milestone. As the coordinator and co-author of the first **Handbook in ESG** (Almedina), he led a monumental 500-page reference work — the first of its kind in Portugal — uniting over twenty experts under his vision. Now serving as the **European Climate Pact Ambassador** and a **TEDx speaker**, he has become a translator of global challenges into governance solutions.
 
-In that same year, he co-authored and coordinated the Manual de ESG (Almedina), a 500-page reference work with contributions from over twenty experts, the first of its kind in Portugal. This milestone consolidated his position as a **thought leader in ESG**, recognised internationally, including by Randstad as one of Portugal’s emerging voices in sustainability and as a jurist capable of translating global challenges into legal, financial, and governance solutions.
-
-João Maria Botelho’s mission is rooted in connecting generations and building civic structures that empower youth to lead responsibly.
-
-As part of the Ambição Portugal project, developed by KPMG and Expresso, he joined leaders from across generations — from those born in the 1960s to the 1990s — to critically rethink Portugal’s ambition within a European context. This experience deepened his belief in dialogue as a driver of national renewal. [Full article here](https://expresso.pt/iniciativaseprodutos/projetos-expresso/ambicao-para-portugal/2025-05-29-geracao-00.-nao-fomos-feitos-para-obedecer-c41f0723)
+His participation in the **Ambição Portugal** project, alongside KPMG and Expresso, saw him rethinking national ambition with leaders across four generations, reinforcing his belief that dialogue is the ultimate driver of institutional renewal.
 
 ![Expresso Article](/expresso.png)
 
-Building on that conviction, he helped as a co-founder for the **Youth Club Portugal**, a civic platform that brings together young entrepreneurs and active citizens to debate with policymakers and leaders across sectors. The Youth Club’s mission is to equip young people with the skills and confidence required for full civic participation, encouraging them to engage in decision-making while cultivating critical thinking and responsibility. It is designed as both a space of debate and a training ground for leadership, recognising and rewarding young voices committed to a humanist and entrepreneurial spirit.
+---
+
+## Today
+
+Through his role as co-founder of the **Youth Club Portugal**, João Maria Botelho continues to build the civic structures he once envisioned. He is not just training the next generation of leaders; he is equipping them with the legal, financial, and humanist tools required for full civic participation. His mission remains clear: to ensure that the sustainable transition is not just a policy goal, but a lived reality, driven by a new generation of entrepreneurs who lead with purpose, responsibility, and an uncompromising spirit of innovation.
 
 _Local Impact for Global Impact_
