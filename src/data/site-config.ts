@@ -19,7 +19,7 @@ export type Hero = {
 export type Subscribe = {
 	title?: string;
 	text?: string;
-	formUrl: string;
+	formUrl?: string;
 };
 
 export type SiteConfig = {
@@ -44,7 +44,7 @@ const siteConfig: SiteConfig = {
 	subtitle:
 		"Global Impact | Forbes 30 Under 30 in Sustainability and Social Impact | Young Sustainability Leader",
 	description:
-		"An award-winning mind and Forbes 30 Under 30 honouree, recognised as one of Portugal’s youngest voices shaping ESG, sustainable finance, and sustainability.",
+		"An award-winning mind and Forbes 30 Under 30 honouree, recognised as one of Portugal's youngest voices shaping ESG, sustainable finance, and sustainability.",
 	image: {
 		src: "/jmb-preview.jpg",
 		alt: "João Maria Botelho",
@@ -105,8 +105,8 @@ const siteConfig: SiteConfig = {
 	],
 	hero: {
 		title:
-			"An award-winning mind and Forbes 30 Under 30 honouree, recognised as one of Portugal’s youngest voices shaping ESG, sustainable finance, and sustainability.",
-		text: "João Maria Botelho *(LL.B, NOVA School of Law)* is a jurist recognised as one of **Forbes 30 Under 30 (2024)** in Sustainability and Social Innovation. He serves on the **Board of Alumni of NOVA School of Law** and works in the legal arena, where he focuses on ESG, Climate Change Regulation, and regulated sectors. His young career is marked by the integration of law with sustainability, combining technical expertise with international engagement. <br/><br/> He is the **founder of Generation Resonance**, an international platform of young leaders protocolled with the **United Nations Association of Portugal**, dedicated to advancing and implementing the **2030 Agenda for Sustainable Development**. He is also a **Global Shaper** under the World Economic Forum and the winner of Portugal’s **Award for Financial Literacy and Entrepreneurship** (Santander Foundation).<br/><br/> João Maria has completed advanced studies in ESG, **Sustainable Finance (Wharton School), Regenerative Economics** under John Fullerton, **Shipping and Blue Economy, Marine Biodiversity & Sustainability** (University of Lisbon and Catholic University of Portugal), and **Climate Change Regulation**. Internationally, he has served in **Policy & Strategy at the Global Alliance for a Sustainable Planet (New York) and Alliance for Affordable Energy**, and was recently named by Randstad as one of Portugal’s leading **ESG thought leaders**.<br/><br/> Currently, he also serves as **Ambassador of the EU Green Deal in Portugal**, and participates regularly as a speaker at national and international forums on sustainability, sustainable finance, and climate law.",
+			"An award-winning mind and Forbes 30 Under 30 honouree, recognised as one of Portugal's youngest voices shaping ESG, sustainable finance, and sustainability.",
+		text: "João Maria Botelho is a jurist, entrepreneur and sustainability expert operating at the strategic intersection of ESG frameworks, economic governance, sustainable business policy, and critical-sectors policy.<br/><br/>As the founder of **Generation Resonance** - an international platform launched at COP28 - João leads a global movement dedicated to structured policy debate and democratic participation. The initiative serves as a bridge between young leadership and high-level international organizations, fostering a dialogue that translates the 2030 Agenda into actionable outcomes.<br/><br/>Recognized by **Forbes 30 Under 30** in Sustainability and Social Innovation, João is a leading voice in the evolution of corporate responsibility. He is the coordinator of the **First ESG Handbook in Portugal** (Almedina, 2024), a seminal work that reflects his commitment to integrating technical legal expertise with regenerative economic models. His analysis is frequently sought by Portuguese and global media, including Forbes USA, where he provides expert commentary on EU sustainability reporting and regulatory shifts.<br/><br/>Named by **Randstad** as one of Portugal's top emerging ESG thought leaders, his influence extends across borders.<br/><br/>As **European Climate Pact Ambassador** (European Commission) João leads the national dialogue on the European Green Deal in Portugal. He is a **TEDx Speaker** and **Global Shaper** of the World Economic Forum, regularly participating in international forums dedicated to sustainable transition, green finance and climate law. Alongside his professional work, he conducts academic and editorial research on corporate responsibility, governance, and the evolution of the economic model, with a special focus on the relationship between regulation, capital allocation, and real-world outcomes. His professional activities also include cross-border transactions, especially where sustainability, regulatory frameworks, and financial structuring meet.<br/><br/>**\"My work is dedicated to ensuring that regulation, capital allocation, and legal frameworks don't just exist on paper, but drive real-world outcomes for a regenerative economy.\"** – *João M Botelho (FORBES Annual Summit)*",
 		image: {
 			src: "/hero.jpg",
 			alt: "João Maria Botelho Hero Image",

@@ -1,7 +1,7 @@
-import { pretty, render } from "@react-email/render";
+import { render } from "@react-email/render";
 import { ActionError, defineAction } from "astro:actions";
 import { z } from "astro:schema";
-import React, { createElement } from "react";
+import { createElement } from "react";
 import { Resend } from "resend";
 import ContactEmail from "../../emails/sample-email";
 
@@ -26,7 +26,7 @@ export const server = {
 
 			const { data, error } = await resend.emails.send({
 				from: "João Maria Botelho <notification@notification.joaomariabotelho.com>",
-				to: ["joaomariastbotelho@gmail.com","rodrigorafaelsantos7@icloud.com"],
+				to: ["joaomariastbotelho@gmail.com", "rodrigorafaelsantos7@icloud.com"],
 				subject: "New message from João Maria Botelho website",
 				html,
 				text,
