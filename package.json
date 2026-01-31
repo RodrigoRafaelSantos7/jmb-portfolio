@@ -25,6 +25,7 @@
 		"@fontsource-variable/newsreader": "^5.2.10",
 		"@iconify-json/ri": "^1.2.5",
 		"@react-email/components": "0.5.3",
+		"@react-email/render": "^2.0.4",
 		"@tailwindcss/vite": "^4.1.13",
 		"@types/d3": "^7.4.3",
 		"@vercel/analytics": "^1.5.0",
