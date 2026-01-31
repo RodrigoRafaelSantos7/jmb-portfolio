@@ -59,10 +59,6 @@ const siteConfig: SiteConfig = {
 			href: "/about",
 		},
 		{
-			text: "Achievements",
-			href: "/achievements",
-		},
-		{
 			text: "Generation Resonance",
 			href: "/generation-resonance",
 		},
